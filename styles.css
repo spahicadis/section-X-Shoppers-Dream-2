@@ -6,6 +6,7 @@
 body {
   background-color: rgb(222, 226, 230);
   font-family: Poppins, sans-serif;
+  overflow-x: hidden;
 }
 
 .container-testimonials {
@@ -13,10 +14,13 @@ body {
   flex-direction: column;
   align-items: center;
   margin-top: 35vh;
-}
-.testimonials-root {
 
-  
+}
+
+.testimonials-root {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
 }
 
 .container-testimonials-heading {
@@ -32,4 +36,82 @@ body {
   width: 40rem;
   line-height: 2.5rem;
   font-weight: 600(thin);
+}
+
+.container-testimonials-slider {
+ position: relative;
+ width: 35rem;
+ height: 35rem;
+ overflow: hidden;
+}
+
+.slide-heading {
+  color: #333;
+  font-size: 1.5rem;
+  font-weight: 400;
+  letter-spacing: 0.1px;
+  margin-bottom: 1.6rem;
+}
+
+.slide-text-box {
+  color: #404040;
+  font-size: 1.1rem;
+  width: 30rem;
+  margin-bottom: 1.4rem;
+}
+
+.slide-client-img {
+  width: 4.2rem;
+  border-radius: 2.2rem;
+  margin-bottom: 0.2rem;
+}
+
+.slide-client-name-username {
+  color: #404040;
+  font-size: 1.1rem;
+  line-height: 1.7rem;
+}
+
+.slide-client-city-country {
+  color: #404040;
+  font-size: 0.9rem;
+
+}
+
+.left {
+  border: none;
+  padding: 1rem;
+  border-radius: 1rem;
+  background-color: transparent;
+  position: absolute;
+  top: 30rem;
+  left: 11rem;
+}
+.right {
+  border: none;
+  padding: 1rem;
+  border-radius: 1rem;
+  background-color: transparent;
+  position: absolute;
+  top: 30rem;
+  right: 15rem;
+}
+
+.slide {
+  position: absolute;
+  width: 35rem;
+  height: 35rem;
+}
+
+.slider-1 {
+  transform: translateX(0%);
+}
+.slider-2 {
+  transform: translateX(100%);
+}
+.slider-3 {
+  transform: translateX(200%);
+}
+.slider-4 {
+  transform: translateX(300%);
 }
