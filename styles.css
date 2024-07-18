@@ -86,6 +86,7 @@ body {
   position: absolute;
   top: 30rem;
   left: 11rem;
+  cursor: pointer;
 }
 .right {
   border: none;
@@ -95,6 +96,7 @@ body {
   position: absolute;
   top: 30rem;
   right: 15rem;
+  cursor: pointer;
 }
 
 .slide {

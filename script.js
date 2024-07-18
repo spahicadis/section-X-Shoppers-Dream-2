@@ -13,8 +13,9 @@ console.log(slider3);
 console.log(slider4);
 
 slideRight.addEventListener('click', function() {
-  slider2.style.transform="translateX(0%)"
   slider1.style.transform="translateX(-100%)"
+  slider2.style.transform="translateX(0%)"
+  
 })
 slideLeft.addEventListener('click', function() {
   slider4.style.transform="translateX(0%)"
