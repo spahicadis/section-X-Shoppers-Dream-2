@@ -43,6 +43,7 @@ body {
  width: 35rem;
  height: 35rem;
  
+ 
 }
 
 .slide-heading {
@@ -119,5 +120,6 @@ body {
 }
 .slider-4 {
   /*transform: translateX(300%);*/
+  transition: 0.3s ease-out;
   
 }
