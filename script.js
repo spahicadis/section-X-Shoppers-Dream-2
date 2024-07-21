@@ -26,8 +26,6 @@ leftArrow.addEventListener('click', function() {
     activeElement=0;
    }
 
-   
-
     
     
     console.log(`Active element is with index ${activeElement}`);
