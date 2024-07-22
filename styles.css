@@ -42,7 +42,7 @@ body {
  position: relative;
  width: 35rem;
  height: 35rem;
- 
+ overflow: hidden;
  
 }
 
